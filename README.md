@@ -1,5 +1,6 @@
 # geodesic
 
+[![DOI](https://zenodo.org/badge/670272740.svg)](https://zenodo.org/badge/latestdoi/670272740)
 A series of utilities to compute geodesic calculations.
 
 ## Available methods
