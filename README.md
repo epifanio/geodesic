@@ -2,19 +2,19 @@
 
 A series of utilities to compute geodesic calculations.
 
-## list of methods
+## Available methods
 
 The code implements the Vincenty's formulas to solve the direct and incverse geodesic problem.
-The CPU code is implemented in python using numba, while the GPU code is implemented in cupy and cudf.
+The CPU code is implemented in python using [`numba`](https://github.com/numba/numba) JIT (Just in Time Compiler), while the GPU code is implemented in [`cupy`](https://github.com/cupy/cupy) and [`cudf`](https://github.com/rapidsai/cudf).
 
 ### CPU
 
-* calculateRangeBearingFromGeographicals()
-* calculateGeographicalPositionFromRangeBearing()
+* `calculateRangeBearingFromGeographicals()`
+* `calculateGeographicalPositionFromRangeBearing()`
 
 ### GPU
 
-* calculateGeographicalPositionFromRangeBearing()
+* `calculateGeographicalPositionFromRangeBearing()`
 
 ---
 
